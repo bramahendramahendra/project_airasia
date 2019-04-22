@@ -1,0 +1,84 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-font{
+	font-size: 14px;
+	color: #1d1d1d;
+}
+
+.active-updated{
+  color: #1d1d1d;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.icon {
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 0px;
+  left: 5px;
+}
+
+.img-fluid-Home {
+  max-width: 100%;
+  min-height: 300px;
+  object-fit: cover;
+  filter: brightness(70%);
+  
+}
+
+.container-Home {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: -1;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.font-Home{
+  text-shadow: 1px 1px 1px black, 0 0 0em black, 0 0 0em black;
+}
+
+@media (max-width: 1000px) {
+  .navbar-toggleable-sm {
+    clear: both;
+  }
+  .font-promotion {
+    font-size: 30px;
+  }
+}
+
+.font-menu{
+  font-size: 12px;
+}

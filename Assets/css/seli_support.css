@@ -1,0 +1,68 @@
+.container-atas{
+	position: relative;
+  	background-color: #F4F4F4;
+  	padding: 15px;
+}
+.nav{
+	position: relative;
+  	background-color: #CCCCCC;
+  	padding: 30px;
+  	z-index: -1;
+
+}
+.container-bawah{
+	position: relative;
+  	background-color: #A0A0A0;
+  	padding: -1px;
+}
+
+
+.img-fluid-nav {
+  max-width: 100%;
+  min-height: 300px;
+  object-fit: cover;
+  filter: brightness(70%);
+  
+}
+
+.bantuan{
+	font-size: 32px;
+	font-family: 'Roboto',sans-serif;
+	text-align: center;
+	color : #333333;
+
+}
+.text-center{
+	color: #696969;
+	font-size: 16px;
+	font-family: 'Roboto' sans-serif;
+}
+.channel{
+	color : #e0051b;
+	font-size: 20px;
+	/*text-align: center;*/
+	font-family: 'Roboto',sans-serif;
+}
+
+.informasi{
+	font-size: 20px;
+	font-family: 'Roboto',sans-serif;
+	color : #e0051b;
+}
+
+.container-kotak{
+	margin : auto;
+	width: 200px;
+	height: 200px;
+	/*padding: 20px;*/
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+}
+
+.container-kotak img{
+	margin: 20px 35px 35px 50px;
+
+}
+
+.img
